@@ -12,6 +12,7 @@ ifdef CONFIG_USB
   obj-m += irda-usb.o
   obj-m += stir4200.o
   obj-m += mcs7780.o
+  obj-m += mcs7784.o
 endif
 ifdef CONFIG_ISA_DMA_API
   obj-m += nsc-ircc.o
